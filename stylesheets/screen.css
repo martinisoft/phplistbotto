@@ -1,0 +1,442 @@
+/** 
+ * Listbot 2.5
+ * Screen Style
+ * 
+ * @author Aaron Kalin
+ * @version 2.0
+ * @date 2004/10/14
+ */
+
+/* ---/ structure elements /---------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Lucida, Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: 76%;
+	background: #F7F7F6 url(../images/bg_page.png) repeat-y 50% 0;
+	background-attachment: fixed;
+}
+
+#wrap {
+	width: 770px;
+	margin: 0 auto;
+}
+
+/* ---/ html elements /---------------------- */
+
+img {
+	border: 0;
+}
+
+/* ---/ links /---------------------- */
+
+a:link, a:visited {
+	color: #811300;
+}
+
+a:hover, a:active {
+	color: #D45E21;
+}
+
+/* ---/ masthead /---------------------- */
+
+#header {
+	background: #FFF url(../images/bg_mast.png) no-repeat top left;
+	height: 120px;
+	margin: 0 1px;
+}
+
+/* ---/ navigation /---------------------- */
+
+#nav {
+	float: left;
+	width: 768px;
+	margin: 0 0 5px 1px;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	font-size: 100%;
+	background: #FFF url(../images/bg_nav.png) repeat-x bottom left;
+	border-bottom: 1px solid #999;
+}
+
+#nav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#nav li a {
+	text-decoration: none;
+	float: left;
+	margin: 0;
+	padding: 3px 20px 3px 20px;
+	color: #3F3F3F;
+	border-right: 1px solid #B9B9B9;
+}
+
+#nav li a:hover, #nav li a.active {
+	background-color: #FFF;
+	color: #6E6E6E;
+}
+
+/* ---/ content area /---------------------- */
+
+#content {
+	margin: 0 10px;
+	padding-top: 34px;
+}
+
+/* ---/ content sections /---------------------- */
+
+.section {
+	margin-top: 14px;
+}
+
+.section h2 {
+	margin: 0;
+	padding: 10px 0 0 0;
+	color: #555;
+}
+
+.section p {
+	margin: 0;
+	padding: 0;
+	color: #777;
+}
+
+.section p.info {
+	margin: 0;
+	padding: 10px 0 0 0;
+	color: #000;
+	font-size: 116%;
+}
+
+.section div {
+	margin-top: 10px;
+}
+
+.section fieldset {
+	margin-top: 10px;
+}
+
+.section table {
+	width: 100%;
+	border: 1px solid #ccc;
+	background-color: #EEE;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.section thead th {
+	padding: 3px 8px;
+	background-color: #E6E6E6;
+}
+
+.section tbody tr td {
+	padding: 3px 8px;
+	border-left: 1px solid #D9D9D9;
+}
+
+.section tbody tr.alternate td {
+	background-color: #FFF;
+}
+
+.section tbody tr td span {
+	color: #777;
+}
+
+.section tbody tr td a:link, .section tbody tr td a:visited {
+	text-decoration: none;
+}
+
+.section tbody tr td a:hover, .section tbody tr td a:active {
+	text-decoration: none;
+}
+
+/* ---/ song information /---------------------- */
+
+#songInfo {
+	width: 600px;
+	margin: 2px 0 80px 20px;
+	padding: 0;
+}
+
+/* commented backslash hack for mac-ie5 \*/
+#songInfo dt {
+	clear: both;
+}
+
+#songInfo dt {
+	width: 120px;
+	float: left;
+	margin: 0;
+	padding: 8px;
+	font-weight: bold;
+}
+
+#songInfo dd {
+	float: left;
+	width: 400px;
+	margin: 0;
+	padding: 6px;
+}
+
+/* ---/ facts /---------------------- */
+
+.facts dl {
+	margin-top: 10px;
+	padding: 0;
+}
+
+.facts dt {
+	margin-top: 10px;
+	font-size: 132%;
+	color: #811300;
+}
+
+.facts dd {
+	margin: 6px 0 0 20px;
+	color: #484848;
+	font-size: 110%;
+}
+
+/* ---/ statistics /---------------------- */
+
+#stats dl {
+	margin-top: 10px;
+	padding: 0;
+}
+
+#stats dt {
+	margin-top: 10px;
+	font-size: 132%;
+	color: #D47D43;
+}
+
+#stats dd {
+	margin: 2px 0 0 0;
+	color: #484848;
+	font-size: 110%;
+}
+
+/* ---/ now playing and dedication /---------------------- */
+
+#nowPlaying {
+	display: block;
+	height: 100px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#nowPlaying dt img {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+#nowPlaying dt a img {
+	width: 100px;
+	height: 100px;
+	padding: 4px;
+	border: 1px solid #CCC;
+}
+
+#nowPlaying dt a:hover img {
+	border: 1px solid #999;
+	background-color: #CCC;
+}
+
+#nowPlaying dd hr {
+	background-color: #C0C0C0;
+	height: 1px;
+	border: none;
+	margin: 6px 0 6px 0;
+}
+
+#nowPlaying dd h2 {
+	margin: 0;
+	padding: 6px 0 0 0;
+	font-size: 170%;
+	color: #740800;
+}
+
+#nowPlaying dd {
+	margin: 0;
+	padding: 0;
+	color: #777;
+}
+
+#nowPlaying dd span {
+	border-bottom: 1px dashed #CCC;
+}
+
+#nowPlaying dd a:link, #nowPlaying dd a:visited {
+	font-size: 150%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #AA3A00;
+}
+
+#nowPlaying dd a:hover, #nowPlaying dd a:active {
+	color: #333;
+}
+
+/* -- OLD
+#now {
+	padding-bottom: 10px;
+}
+
+#now img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+
+#now span {
+	display: block;
+}
+
+#now h2 {
+	margin: 0 0 8px 0;
+	padding: 6px 0;
+	font-size: 170%;
+	color: #740800;
+	border-bottom: 1px solid #999;
+}
+
+#now p {
+	margin: 0;
+	padding: 0;
+	color: #777;
+}
+
+#dedication span {
+	border-bottom: 1px dashed #CCC;
+}
+
+#now p a:link, #now p a:visited {
+	font-size: 150%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #AA3A00;
+}
+
+#now p a:hover, #now p a:active {
+	color: #333;
+}
+*/
+
+/* ---/ notice /---------------------- */
+
+#content .notice {
+	text-align: center;
+	margin-top: 1em;
+	padding: 0.5em;
+	background-color: #EEBF61;
+	border: 1px solid #000;
+	font-size: 130%;
+}
+
+#content .notice span {
+	font-weight: bold;
+}
+
+/* ---/ search /---------------------- */
+
+#content .section fieldset {
+	text-align: center;
+	border: none;
+}
+
+#content .section label {
+	padding: 0 0.2em 0 0.4em;
+}
+
+/* ---/ quicksearch bar /---------------------- */
+
+#content .section #quickSearch ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+#content .section #quickSearch ul li {
+	display: inline;
+}
+
+#content .section #quickSearch ul li a {
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0.3em;
+	font-size: 130%;
+}
+
+#content .section #quickSearch ul li a:hover {
+	background-color: #E5E6EA;
+}
+
+/* ---/ request button /---------------------- */
+
+#content .section a.request {
+	display: block;
+	width: 63px;
+	background: url(../images/request.png) top left no-repeat;
+	padding: 15px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:15px; /* for IE5/Win only */
+}
+
+#content .section a.request:hover {
+	background-position: 0 -15px;
+}
+
+.playListNav {
+	text-align: center;
+	padding-top: 0.4em;
+}
+
+.playListNav span {
+	font-weight: bold;
+}
+
+.playListNav a {
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0.4em;
+	padding: 4px;
+	font-size: 130%;
+}
+
+.playListNav a:hover {
+	background-color: #E5E6EA;
+}
+
+.playListNav a.curnum {
+	background-color: #DBDBDD;
+}
+
+.playListNav a.pagerw, a.pageff {
+	font-size: 220%;
+}
+
+.playListNav a.pageprev, a.pagenext {
+	font-size: 170%;
+}
+
+/* ---/ copyright /---------------------- */
+
+#copyright {
+	clear: both;
+	text-align: center;
+	font-size: 90%;
+	margin: 18px 0;
+	padding-top: 14px;
+	border-top: 1px solid #AAA;
+}

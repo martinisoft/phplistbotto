@@ -1,0 +1,20 @@
+Song types
+S - Normal song
+I - Station ID 
+
+P - Promo 
+J - Jingle
+A - Advertisement 
+N - Syndicated news
+V - Interviews 
+X - Sound FX 
+C - Unknown content 
+? - Unknown 
+
+User Tracking
+
+Under the admin XML, see the peers information
+compare IP of party making request and follow 
+that as a guide.  Consider adding it to the
+common functions file as a requirement to make
+a request.

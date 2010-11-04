@@ -1,0 +1,82 @@
+CHANGELOG
+
+2.6 - 2005/07/14
+
+ Code:
+ 1. Major backend database engine change to PEAR::DB
+ 2. Session Tracking via DB
+ 3. 
+
+2.5 - 2005/02/05
+
+ Cosmetic:
+ 1. "Now Playing" displays an album cover if available
+    (also updated the now playing to a partial include)
+
+ Code:
+ 1. Fixed minor bug in the search tool when using ALL
+    this caused it to return a bad result (silly typos!)
+
+2.3-2.4 - 2005/02/05
+
+ Cosmetic:
+ 1. Changed 0-9 to "All" in quick search
+    (simply makes more sense now)
+ 2. Fixed grammar of the various statistics
+
+ Code:
+ 1. Updated search internals to take advantage
+    of MySQL's FULLTEXT search functionality.
+    Welcome to the world of uber efficiency!
+ 2. Cleaned up commented code to "graveyard"
+    section at the top.
+
+ Legal:
+ 1. All code is now under the MIT license, meaning
+    you can do whatever the hell you feel like
+    doing with this code.
+
+2.2 - 2005/01/01
+
+ Cosmetic:
+ 1. Updated the navigation for easier access
+ 2. Songinfo page updated dramatically
+ 3. Request system now has a better display
+ 4. Added [Requested] tag to end of song names
+    (if they were requested of course)
+ 5. Song titles are all links to the song info
+    page
+
+ Code:
+ 1. Request system overhauled and updated
+    a. Added dedication for songs
+    b. Modified "Now Playing" to show dedications
+
+2.1 - 2004/12/31
+
+ Cosmetic:
+ 1. Added statistics again, but in relevant
+    areas and out of the way (easier to read).
+    Still left current listeners out due to
+    unreliability of stats.
+
+ Code:
+  1. Fixed a few bugs with the listing and paginator
+     (I need to stop mis-typing stuff!)
+
+2.0 - 2004/12/31
+
+ Cosmetic:
+ 1. Updated design, overhauled everything.
+ 2. Removed statistics (they were too redundant)
+
+ Code:
+ 1. Completely updated framework and internal code
+    efficiency is better, code cleanliness is yummy
+ 2. Switched from PEAR::MDB to ADODB (PEAR Independance)
+
+1.0 - 2004/01/03
+
+ General:
+ 1. Hacked code together from original templates
+    not very efficient, suggest new system later.

@@ -1,0 +1,175 @@
+/** 
+ * Listbot 2.1
+ * Screen Style
+ * 
+ * @author Aaron Kalin
+ * @version 2.0
+ * @date 2004/10/14
+ */
+
+/* ---/ structure elements /---------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Lucida, Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: 76%;
+	background: #F7F7F6;
+	background-attachment: fixed;
+}
+
+#wrap {
+}
+
+/* ---/ html elements /---------------------- */
+
+img {
+	border: 0;
+}
+
+/* ---/ form elements /---------------------- */
+
+form {
+	padding: 6px 0 0 10px;
+}
+
+fieldset {
+	display: block;
+	width: 17em;
+	margin: 0 0 3em 0;
+	padding: 0 1em 1em 1em;
+	border: 0px;
+}
+
+input {
+	display: block;
+	width: 15em;
+	margin-bottom: 10px;
+}
+
+textarea {
+	display: block;
+	width: 15em;
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+/* ---/ links /---------------------- */
+
+a:link, a:visited {
+	color: #811300;
+}
+
+a:hover, a:active {
+	color: #D45E21;
+}
+
+/* ---/ masthead /---------------------- */
+
+#header {
+	margin: 0 0 0 20px;
+}
+
+#header p {
+	margin: 8px 0;
+	padding: 0;
+	font-size: 130%;
+}
+
+/* ---/ content area /---------------------- */
+
+#content {
+	margin: 0 2px;
+	padding-top:6px;
+}
+
+/* ---/ content songinfo /---------------------- */
+
+#songinfo {
+	padding-left: 20px;
+}
+
+#songinfo h2 {
+	margin: 0;
+	padding: 6px 0;
+	font-size: 170%;
+	color: #740800;
+}
+
+#songinfo p {
+	margin: 0;
+	padding-top: 6px;
+	font-size: 150%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #AA3A00;
+}
+
+/* ---/ notice /---------------------- */
+
+#alert {
+	padding-left: 20px;
+}
+
+#alert h2 {
+	margin: 0;
+	padding: 6px 0;
+	font-size: 170%;
+	color: #740800;
+}
+
+#alert p {
+	font-size: 130%;
+	font-weight: bold;
+}
+
+/* ---/ thanks /---------------------- */
+
+#thanks {
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+/* ---/ dedicate /---------------------- */
+
+#dedicate {
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 130%;
+	color: #7E7E7E;
+}
+
+#dedicate a {
+	text-decoration: none;
+	border-bottom: 1px dashed #811300;
+}
+
+/* ---/ message /---------------------- */
+
+#message {
+	padding-left: 20px;
+}
+
+#message h2 {
+	margin: 0;
+	padding: 6px 0;
+	font-size: 170%;
+	color: #740800;
+}
+
+#message p {
+	font-size: 130%;
+	color: #555;
+}
+
+#message p span {
+	border-bottom: 1px dashed #CCC;
+}
